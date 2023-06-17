@@ -142,9 +142,15 @@
     .navbar-dark .navbar-brand img {
         max-height: 45px;
     }
+	
+	.navbar h1{
+		text-align:center;
+		margin-left:100px;
+		font-size: 25px;
+	}
 }
 
-@media (min-width: 992px) {
+@media (min-width: 400px) {
     .navbar-dark {
         position: absolute;
         width: 100%;
@@ -158,6 +164,7 @@
         position: fixed;
         background: var(--dark) !important;
     }
+	
 	
 }
 
